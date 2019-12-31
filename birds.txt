@@ -1,0 +1,219 @@
+Ducks, Geese, and Swans 
+Black-bellied Whistling-duck 
+Snow Goose 
+Canada Goose Branta canadensis
+Trumpeter Swan 
+Wood Duck Aix sponsa
+Mallard Anas platyrhynchos 
+Northern Shoveler 
+Green-winged Teal 
+Canvasback 
+Hooded Merganser 
+Partridges, Grouse, Turkeys, and Old 
+World Quail 
+*Ring-necked Pheasant 
+Ruffed Grouse Bonasa umbellus 
+Wild Turkey Meleagris gallopavo 
+New World Quail 
+Northern Bobwhite 
+Loons 
+Red-throated Loon    
+Common Loon Gavia immer
+Grebes 
+Pied-billed Grebe Podilymbus podiceps 
+Red-necked Grebe 
+Albatrosses 
+Laysan Albatross 
+Shearwaters and Petrels 
+
+Northern Fulmar Fulmarus glacialis 
+Pelicans 
+American White Pelican 
+Pelecanus erythrorhynchos 
+Bitterns, Herons, and Allies 
+American Bittern 
+Great Blue Heron Ardea herodias 
+Snowy Egret Egretta thula 
+Green Heron 
+Black-crowned Night-heron 
+Ibises and Spoonbills 
+
+Roseate Spoonbill Platalea ajaja 
+Cormorants 
+Double-crested Cormorant 
+Phalacrocorax auritus 
+Darters 
+Anhinga Anhinga anhinga 
+Deep-water Waders 
+Wood Stork
+Caracaras and Falcons 
+Crested Caracara 
+American Kestrel 
+Peregrine Falcon Falco peregrinus 
+Osprey 
+Osprey Pandion haliaetus 
+Hawks, Kites, Eagles, and Allies 
+
+Bald Eagle Haliaeetus leucocephalus 
+Northern Harrier 
+Cooper’s Hawk Accipiter cooperii 
+Red-tailed Hawk Buteo jamaicensis 
+Golden Eagle 
+New World Vultures 
+Turkey Vulture  Cathartes aura
+California Condor
+Rails, Gallinules, and Coots 
+Clapper Rail Rallus longirostris 
+Sora 
+Purple Gallinule 
+American Coot 
+Cranes 
+Whooping Crane Grus americana 
+Lapwings and Plovers 
+American Golden-Plover 
+Killdeer Charadrius vociferus 
+Oystercatchers 
+American Oystercatcher 
+Stilts and Avocets 
+Black-necked Stilt 
+American Avocet Recurvirostra 
+americana 
+Sandpipers, Phalaropes, and Allies 
+
+Spotted Sandpiper 
+Ruddy Turnstone 
+Dunlin Calidris alpina 
+Wilson’s Snipe  
+American Woodcock Scolopax minor 
+Gulls, Terns, and Skimmers 
+Laughing Gull 
+Ring-billed Gull 
+Herring Gull Larus argentatus 
+Least Tern Sternula antillarum 
+Caspian Tern 
+Black Tern 
+Black Skimmer Rynchops niger 
+Auks, Murres, and Puffins 
+Common Murre Uria aalge 
+Tufted Puffin 
+Pigeons and Doves 
+Mourning Dove Zenaida macroura 
+Common Ground-Dove 
+*Rock Pigeon  Columba livia 
+Cuckoos, Roadrunners, and Anis 
+
+Black-billed Cuckoo 
+Greater Roadrunner 
+Barn Owls 
+Barn Owl Tyto alba 
+Typical Owls 
+Great Horned Owl Bubo virginianus 
+Snowy Owl 
+Barred Owl Strix varia 
+Screech Owl
+Northern Cardinal Cardinalis 
+cardinalis 
+Indigo Bunting 
+Painted Bunting Passerina ciris 
+Scarlet Tanager 
+Bobolink 
+Western Meadowlark 
+Common Grackle 
+Baltimore Oriole Icterus galbula 
+Fringillids and Allies 
+Red Crossbill Loxia curvirostra 
+American Goldfinch Carduelis tristis 
+Evening Grosbeak 
+House Finch
+Pine Siskin
+Old World Sparrows 
+*House Sparrow  Passer domesticus
+Old World Starlings 
+*European Starling  Sturnus vulgaris
+Nightjars and Allies 
+Chuck-will’s-widow 
+Common Nighthawk
+Swifts 
+Chimney Swift  Chaetura pelagica
+Kingfishers 
+Belted Kingfisher Megaceryle alcyon 
+Woodpeckers and Allies 
+Red-headed Woodpecker 
+Yellow-bellied Sapsucker 
+Downy Woodpecker 
+Northern Flicker Colaptes auratus
+Pileated Woodpecker 
+Tyrant Flycatchers 
+Olive-sided Flycatcher 
+Eastern Phoebe Sayornis phoebe 
+Vermilion Flycatcher 
+Great Crested Flycatcher 
+Scissor-tailed Flycatcher 
+Shrikes 
+Loggerhead Shrike 
+Vireos 
+Warbling Vireo 
+Red-eyed Vireo Vireo olivaceus
+Jays and Crows 
+Steller’s Jay 
+Blue Jay  Cyanocitta cristata
+Black-billed Magpie 
+American Crow 
+Common Raven Corvus corax 
+Larks 
+Horned Lark 
+Swallows 
+Purple Martin 
+Cliff Swallow 
+Barn Swallow Hirundo rustica 
+Chickadees and Titmice 
+Black-capped Chickadee  
+Tufted Titmouse Baeolophus bicolor 
+Nuthatches 
+Red-breasted Nuthatch Sitta 
+canadensis 
+White-breasted Nuthatch 
+Creepers 
+Brown Creeper Certhia americana 
+Wrens 
+Cactus Wren 
+Marsh Wren
+Carolina Wren  
+Dippers 
+American Dipper Cinclus mexicanus 
+Kinglets 
+Golden-crowned Kinglet 
+Ruby-crowned Kinglet 
+Gnatcatchers 
+Blue-gray Gnatcatcher 
+Thrushes 
+Wood Thrush 
+American Robin Turdus migratorius 
+
+polyglottos 
+Brown Thrasher Toxostoma rufum 
+Waxwings 
+Cedar Waxwing Bombycilla cedrorum 
+Wood-Warblers 
+Yellow Warbler  
+Magnolia Warbler Dendroica magnolia 
+Yellow-rumped Warbler 
+Black-throated Green Warbler 
+Black-and-white Warbler Mniotilta 
+varia 
+American Redstart 
+Kentucky Warbler 
+Common Yellowthroat
+New World Sparrow
+
+Spotted Towhee Pipilo maculatus 
+Black-chinned Sparrow 
+Lark Sparrow 
+Harris’s Sparrow 
+White-crowned Sparrow 
+Chipping Sparrow
+Dark-eyed Junco Junco hyemalis 
+Longspurs and Buntings 
+Lapland Longspur 
+Snow Bunting 
+Cardinals and Allies 

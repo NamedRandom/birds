@@ -1,0 +1,1 @@
+rm -rf *.tex images *.pdf *.log *.aux  *.fdb_latexmk *.fls &>/dev/null 2&>/dev/null

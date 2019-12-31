@@ -1,0 +1,3 @@
+#!/bin/bash
+python3 webyoink.py
+pdflatex birds.tex &>/dev/null 2&>/dev/null
