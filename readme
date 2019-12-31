@@ -1,0 +1,1 @@
+takes a list of birds in birds.txt and spits out a birds.tex, in LaTeX, for a pdf to be made with basic info about the birds, 2 pictures (with captions!), and 3-8 cool facts!
