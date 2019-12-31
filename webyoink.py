@@ -24,6 +24,10 @@ class Bird:
         self.basic_description = tree.xpath('/html/body/div[3]/main/div[2]/div[1]/div/div[2]/p/text()')[0]
         #self.cool_facts = tree.xpath('/html/body/div[3]/main/div[2]/div[3]/ul/li/div/ul/*/text()')
         self.cool_facts = tree.xpath('/html/body/div[3]/main/div[2]/div[3]/ul/li/div/ul/descendant::*/text()')
+        self.order = tree.xpath('/html/body/div[3]/main/div[2]/div[1]/div/div[1]/div[1]/div[2]/ul/li[1]/span/text()')[0]
+        self.family = tree.xpath('/html/body/div[3]/main/div[2]/div[1]/div/div[1]/div[1]/div[2]/ul/li[2]/span/text()')[0]
+        self.scientific_name = tree.xpath('/html/body/div[3]/main/div[2]/div[1]/div/div[1]/div[1]/div[2]/i/text()')[0]
+        print(self.scientific_name)
         os.mkdir("./images/{}".format(self.name))
         file1 = open("./images/{}/image1.jpg".format(self.name),"wb")
         file2 = open("./images/{}/image2.jpg".format(self.name),"wb")
@@ -44,7 +48,8 @@ class Bird:
 
 
 def latex_section(doc, bird):
-    stuff = "\\section{" + bird.name + "}\n"
+    stuff = "\\section{" + bird.name + "\\textit{"+bird.scientific_name+"}}\n"
+    stuff += "Order \\textit{"+bird.order+"} Family \\textit{"+bird.family+"}\n"
     stuff += bird.basic_description + "\n"
     stuff += """
 \\begin{{figure}}[h!]
