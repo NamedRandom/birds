@@ -21,7 +21,7 @@ class Bird:
         self.url = "https://www.allaboutbirds.org/guide/" + self.name.replace(" ", "_")
         self.imageurl = "https://www.allaboutbirds.org/guide/assets/photo/{}-480px.jpg"
         self.page = requests.get(self.url)
-        # print(str(self.page.url))
+        print("Go to link if crashed here: "+str(self.page.url))
         # print(str(self.page)+" "+ self.page.url)
         tree = html.fromstring(self.page.content)
         self.basic_description = tree.xpath('/html/body/div[3]/main/div[2]/div[1]/div/div[2]/p/text()')[0]
@@ -50,7 +50,7 @@ class Bird:
         resp2.raw.decode_content = True
         shutil.copyfileobj(resp1.raw, file1)
         shutil.copyfileobj(resp2.raw, file2)
-        print("Finished {}".format(self.name))
+        # print("Finished {}".format(self.name))
 
     def __str__(self):
         return 'A bird object, named {} at url {}'.format(self.name, self.page.url)
