@@ -73,7 +73,7 @@ def latex_section(doc, bird):
     doc.write(stuff)
 
 
-file = open("test.txt")
+file = open("birds.txt")
 doc = open("birds.tex", "w+")
 
 os.system("rm -rf images")

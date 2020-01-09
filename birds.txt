@@ -1,219 +1,165 @@
-Ducks, Geese, and Swans 
 Black-bellied Whistling-duck 
 Snow Goose 
-Canada Goose Branta canadensis
+Canada Goose
 Trumpeter Swan 
-Wood Duck Aix sponsa
-Mallard Anas platyrhynchos 
+Wood Duck
+Mallard
 Northern Shoveler 
 Green-winged Teal 
-Canvasback 
+Canvasback
 Hooded Merganser 
-Partridges, Grouse, Turkeys, and Old 
-World Quail 
-*Ring-necked Pheasant 
-Ruffed Grouse Bonasa umbellus 
-Wild Turkey Meleagris gallopavo 
-New World Quail 
+ 
+New World quail
+*Ring-necked Pheasant
+Ruffed Grouse 
+Wild Turkey  
 Northern Bobwhite 
-Loons 
 Red-throated Loon    
-Common Loon Gavia immer
-Grebes 
-Pied-billed Grebe Podilymbus podiceps 
+Common Loon 
+Pied-billed Grebe 
 Red-necked Grebe 
-Albatrosses 
 Laysan Albatross 
-Shearwaters and Petrels 
 
-Northern Fulmar Fulmarus glacialis 
-Pelicans 
+Northern Fulmar  
 American White Pelican 
-Pelecanus erythrorhynchos 
-Bitterns, Herons, and Allies 
 American Bittern 
-Great Blue Heron Ardea herodias 
-Snowy Egret Egretta thula 
+Great Blue Heron 
+Snowy Egret 
 Green Heron 
-Black-crowned Night-heron 
-Ibises and Spoonbills 
+Black-crowned Night-heron  
 
-Roseate Spoonbill Platalea ajaja 
-Cormorants 
+Roseate Spoonbill
 Double-crested Cormorant 
-Phalacrocorax auritus 
-Darters 
-Anhinga Anhinga anhinga 
+Anhinga
 Deep-water Waders 
 Wood Stork
-Caracaras and Falcons 
+
 Crested Caracara 
 American Kestrel 
-Peregrine Falcon Falco peregrinus 
-Osprey 
-Osprey Pandion haliaetus 
-Hawks, Kites, Eagles, and Allies 
+Peregrine Falcon
+Osprey
 
-Bald Eagle Haliaeetus leucocephalus 
+Bald Eagle 
 Northern Harrier 
-Cooper’s Hawk Accipiter cooperii 
-Red-tailed Hawk Buteo jamaicensis 
-Golden Eagle 
-New World Vultures 
-Turkey Vulture  Cathartes aura
+Cooper’s Hawk
+Red-tailed Hawk 
+Golden Eagle  
+Turkey Vulture
 California Condor
-Rails, Gallinules, and Coots 
-Clapper Rail Rallus longirostris 
-Sora 
+Clapper Rail 
+Sora
 Purple Gallinule 
 American Coot 
-Cranes 
-Whooping Crane Grus americana 
-Lapwings and Plovers 
+Whooping Crane 
 American Golden-Plover 
-Killdeer Charadrius vociferus 
-Oystercatchers 
-American Oystercatcher 
-Stilts and Avocets 
+Killdeer  
+American Oystercatcher  
 Black-necked Stilt 
-American Avocet Recurvirostra 
-americana 
-Sandpipers, Phalaropes, and Allies 
+American Avocet 
 
 Spotted Sandpiper 
 Ruddy Turnstone 
-Dunlin Calidris alpina 
+Dunlin
 Wilson’s Snipe  
-American Woodcock Scolopax minor 
-Gulls, Terns, and Skimmers 
+American Woodcock 
 Laughing Gull 
 Ring-billed Gull 
-Herring Gull Larus argentatus 
-Least Tern Sternula antillarum 
+Herring Gull 
+Least Tern 
 Caspian Tern 
 Black Tern 
-Black Skimmer Rynchops niger 
-Auks, Murres, and Puffins 
-Common Murre Uria aalge 
-Tufted Puffin 
-Pigeons and Doves 
-Mourning Dove Zenaida macroura 
+Black Skimmer  
+Common Murre 
+Tufted Puffin  
+Mourning Dove 
 Common Ground-Dove 
-*Rock Pigeon  Columba livia 
-Cuckoos, Roadrunners, and Anis 
+*Rock Pigeon  
 
 Black-billed Cuckoo 
 Greater Roadrunner 
-Barn Owls 
-Barn Owl Tyto alba 
-Typical Owls 
-Great Horned Owl Bubo virginianus 
-Snowy Owl 
-Barred Owl Strix varia 
+Barn Owl 
+Great Horned Owl
+Snowy Owl
+Barred Owl
 Screech Owl
-Northern Cardinal Cardinalis 
-cardinalis 
+Northern Cardinal 
 Indigo Bunting 
-Painted Bunting Passerina ciris 
+Painted Bunting 
 Scarlet Tanager 
 Bobolink 
 Western Meadowlark 
 Common Grackle 
-Baltimore Oriole Icterus galbula 
-Fringillids and Allies 
-Red Crossbill Loxia curvirostra 
-American Goldfinch Carduelis tristis 
+Baltimore Oriole
+Red Crossbill 
+American Goldfinch 
 Evening Grosbeak 
 House Finch
 Pine Siskin
 Old World Sparrows 
-*House Sparrow  Passer domesticus
+*House Sparrow
 Old World Starlings 
-*European Starling  Sturnus vulgaris
-Nightjars and Allies 
+*European Starling 
 Chuck-will’s-widow 
 Common Nighthawk
-Swifts 
-Chimney Swift  Chaetura pelagica
-Kingfishers 
-Belted Kingfisher Megaceryle alcyon 
-Woodpeckers and Allies 
+Chimney Swift
+Belted Kingfisher
 Red-headed Woodpecker 
 Yellow-bellied Sapsucker 
 Downy Woodpecker 
-Northern Flicker Colaptes auratus
+Northern Flicker
 Pileated Woodpecker 
 Tyrant Flycatchers 
 Olive-sided Flycatcher 
-Eastern Phoebe Sayornis phoebe 
+Eastern Phoebe 
 Vermilion Flycatcher 
 Great Crested Flycatcher 
 Scissor-tailed Flycatcher 
-Shrikes 
 Loggerhead Shrike 
-Vireos 
 Warbling Vireo 
-Red-eyed Vireo Vireo olivaceus
-Jays and Crows 
+Red-eyed Vireo 
 Steller’s Jay 
-Blue Jay  Cyanocitta cristata
+Blue Jay
 Black-billed Magpie 
 American Crow 
-Common Raven Corvus corax 
-Larks 
+Common Raven
 Horned Lark 
-Swallows 
 Purple Martin 
 Cliff Swallow 
-Barn Swallow Hirundo rustica 
-Chickadees and Titmice 
+Barn Swallow 
 Black-capped Chickadee  
-Tufted Titmouse Baeolophus bicolor 
-Nuthatches 
-Red-breasted Nuthatch Sitta 
-canadensis 
+Tufted Titmouse 
+Red-breasted Nuthatch 
 White-breasted Nuthatch 
-Creepers 
-Brown Creeper Certhia americana 
-Wrens 
+Brown Creeper 
 Cactus Wren 
 Marsh Wren
 Carolina Wren  
-Dippers 
-American Dipper Cinclus mexicanus 
-Kinglets 
+American Dipper 
 Golden-crowned Kinglet 
 Ruby-crowned Kinglet 
-Gnatcatchers 
 Blue-gray Gnatcatcher 
-Thrushes 
 Wood Thrush 
-American Robin Turdus migratorius 
+American Robin 
 
-polyglottos 
-Brown Thrasher Toxostoma rufum 
-Waxwings 
-Cedar Waxwing Bombycilla cedrorum 
+Brown Thrasher 
+Cedar Waxwing 
 Wood-Warblers 
 Yellow Warbler  
-Magnolia Warbler Dendroica magnolia 
+Magnolia Warbler
 Yellow-rumped Warbler 
 Black-throated Green Warbler 
-Black-and-white Warbler Mniotilta 
-varia 
+Black-and-white Warbler
 American Redstart 
 Kentucky Warbler 
 Common Yellowthroat
 New World Sparrow
 
-Spotted Towhee Pipilo maculatus 
+Spotted Towhee 
 Black-chinned Sparrow 
 Lark Sparrow 
 Harris’s Sparrow 
 White-crowned Sparrow 
 Chipping Sparrow
-Dark-eyed Junco Junco hyemalis 
-Longspurs and Buntings 
+Dark-eyed Junco 
 Lapland Longspur 
 Snow Bunting 
-Cardinals and Allies 
