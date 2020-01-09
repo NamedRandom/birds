@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import codecs
 import os
 import shutil
 from lxml import html
@@ -15,25 +16,34 @@ class Bird:
     """ a bird datatype to make life easier  """
 
     def __init__(self, n):
-        self.url = "https://www.allaboutbirds.org/guide/"
-        self.imageurl = "https://www.allaboutbirds.org/guide/assets/photo/{}-480px.jpg"
         self.name = n.rstrip()
-        self.page = requests.get(self.url + self.name.replace(" ", "_") + "")
+        # print(self.name)
+        self.url = "https://www.allaboutbirds.org/guide/" + self.name.replace(" ", "_")
+        self.imageurl = "https://www.allaboutbirds.org/guide/assets/photo/{}-480px.jpg"
+        self.page = requests.get(self.url)
+        # print(str(self.page.url))
         # print(str(self.page)+" "+ self.page.url)
         tree = html.fromstring(self.page.content)
         self.basic_description = tree.xpath('/html/body/div[3]/main/div[2]/div[1]/div/div[2]/p/text()')[0]
-        #self.cool_facts = tree.xpath('/html/body/div[3]/main/div[2]/div[3]/ul/li/div/ul/*/text()')
+        # self.cool_facts = tree.xpath('/html/body/div[3]/main/div[2]/div[3]/ul/li/div/ul/*/text()')
         self.cool_facts = tree.xpath('/html/body/div[3]/main/div[2]/div[3]/ul/li/div/ul/descendant::*/text()')
         self.order = tree.xpath('/html/body/div[3]/main/div[2]/div[1]/div/div[1]/div[1]/div[2]/ul/li[1]/text()')[0]
         self.family = tree.xpath('/html/body/div[3]/main/div[2]/div[1]/div/div[1]/div[1]/div[2]/ul/li[2]/text()')[0]
         self.scientific_name = tree.xpath('/html/body/div[3]/main/div[2]/div[1]/div/div[1]/div[1]/div[2]/i/text()')[0]
-        os.mkdir("./images/{}".format(self.name))
-        file1 = open("./images/{}/image1.jpg".format(self.name),"wb")
-        file2 = open("./images/{}/image2.jpg".format(self.name),"wb")
-        self.caption1 = tree.xpath("/html/body/div[3]/main/div[1]/div/div/ul/li[1]/a/span/text()")[0]
-        self.caption2 = tree.xpath("/html/body/div[3]/main/div[1]/div/div/ul/li[2]/a/span/text()")[0]
-        image1 = self.imageurl.format(get_trailing_number(tree.xpath('/html/body/div[3]/main/div[1]/div/div/ul/li[1]/a/@href')[0]))
-        image2 = self.imageurl.format(get_trailing_number(tree.xpath('/html/body/div[3]/main/div[1]/div/div/ul/li[2]/a/@href')[0]))
+        os.mkdir("./images/{}".format(self.name.replace(" ", "_")))
+        file1 = open("./images/{}/image1.jpg".format(self.name.replace(" ", "_")), "wb")
+        file2 = open("./images/{}/image2.jpg".format(self.name.replace(" ", "_")), "wb")
+        if self.name not in noCap:
+            self.caption1 = tree.xpath("/html/body/div[3]/main/div[1]/div/div/ul/li[1]/a/span/text()")[0]
+            self.caption2 = tree.xpath("/html/body/div[3]/main/div[1]/div/div/ul/li[2]/a/span/text()")[0]
+        else:
+            self.caption1 = ""
+            self.caption2 = ""
+
+        image1 = self.imageurl.format(
+            get_trailing_number(tree.xpath('/html/body/div[3]/main/div[1]/div/div/ul/li[1]/a/@href')[0]))
+        image2 = self.imageurl.format(
+            get_trailing_number(tree.xpath('/html/body/div[3]/main/div[1]/div/div/ul/li[2]/a/@href')[0]))
         resp1 = requests.get(image1, stream=True)
         resp2 = requests.get(image2, stream=True)
         resp1.raw.decode_content = True
@@ -47,42 +57,46 @@ class Bird:
 
 
 def latex_section(doc, bird):
-    stuff = "\\section{" + bird.name + " \\textit{"+bird.scientific_name+"}}\n"
-    stuff += "Order \\textit{"+bird.order+"} Family \\textit{"+bird.family+"}\n\n"
+    stuff = "\\section{" + bird.name + " \\textit{" + bird.scientific_name + "}}\n"
+    stuff += "Order \\textit{" + bird.order + "} Family \\textit{" + bird.family + "}\n\n"
     stuff += bird.basic_description + "\n"
     stuff += """
-\\begin{{figure}}[h!]
+\\begin{{figure}}[ht!]
 \\centering
 \\includegraphics[scale=.6]{{./images/{0}/image1.jpg}}
 \\caption{{{1}}}
 \\end{{figure}}
-    """.format(bird.name,bird.caption1)
+    """.format(bird.name.replace(" ","_"), bird.caption1)
     stuff += "\n\\subsection{Cool Facts}\n"
     stuff += "\\begin{itemize}"
     for fact in bird.cool_facts:
-        stuff += "\\item " + fact + "\n"
+        stuff += "\\item " + fact.replace("$","\\$") + "\n"
 
     stuff += "\\end{itemize}"
     stuff += """
-\\begin{{figure}}[h!]
+\\begin{{figure}}[ht!]
 \\centering
 \\includegraphics[scale=.6]{{./images/{0}/image2.jpg}}
 \\caption{{{1}}}
 \\end{{figure}}
-    """.format(bird.name,bird.caption2)
-    doc.write(stuff)
+    """.format(bird.name.replace(" ","_"), bird.caption2)
+    if bird.name in noCap:
+        for line in stuff:
+            if "caption" in line:
+                line = ""
+    doc.write(stuff.replace("\u200b", "").replace("\u009D", "").replace("#", "\\#").replace("\u00b0", "").replace("&", "\\&"))
 
 
 file = open("birds.txt")
-doc = open("birds.tex", "w+")
+if os.path.exists("birds.tex"):
+    os.remove("birds.tex")
+doc = codecs.open("birds.tex", "w+","utf-8")
 
-os.system("rm -rf images")
-os.system("mkdir images")
+if os.path.exists("./images"):
+    shutil.rmtree("./images")
+os.mkdir("./images")
 
-birds = []
-
-for line in file:
-    birds.append(Bird(line))
+noCap = {"Common Ground-Dove", "Rock Pigeon", "Chimney Swift", "Olive-sided Flycatcher", "Great Crested Flycatcher", "Black-billed Magpie", "Cactus Wren", "Marsh Wren", "Wood Thrush"}
 
 doc.write("""
 \\documentclass{article}
@@ -98,11 +112,10 @@ doc.write("""
 \\maketitle
 """)
 
-print("Starting LaTeX")
-
-for bird in birds:
-    latex_section(doc, bird)
+for line in file:
+    if line != "\n":
+        latex_section(doc,Bird(line))
 
 doc.write("\\end{document}")
 
-#os.system("pdflatex birds.tex")
+# os.system("pdflatex birds.tex")
