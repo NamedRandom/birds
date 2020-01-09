@@ -61,25 +61,25 @@ def latex_section(doc, bird):
     stuff += "Order \\textit{" + bird.order + "} Family \\textit{" + bird.family + "}\n\n"
     stuff += bird.basic_description + "\n"
     stuff += """
-\\begin{{figure}}[ht!]
+\\begin{{figure}}[hb!]
 \\centering
-\\includegraphics[scale=.6]{{./images/{0}/image1.jpg}}
+\\includegraphics[scale=.4]{{./images/{0}/image1.jpg}}
 \\caption{{{1}}}
 \\end{{figure}}
     """.format(bird.name.replace(" ","_"), bird.caption1)
+    stuff += """
+\\begin{{figure}}[hb!]
+\\centering
+\\includegraphics[scale=.4]{{./images/{0}/image2.jpg}}
+\\caption{{{1}}}
+\\end{{figure}}
+    """.format(bird.name.replace(" ","_"), bird.caption2)
     stuff += "\n\\subsection{Cool Facts}\n"
     stuff += "\\begin{itemize}"
     for fact in bird.cool_facts:
         stuff += "\\item " + fact.replace("$","\\$") + "\n"
 
     stuff += "\\end{itemize}"
-    stuff += """
-\\begin{{figure}}[ht!]
-\\centering
-\\includegraphics[scale=.6]{{./images/{0}/image2.jpg}}
-\\caption{{{1}}}
-\\end{{figure}}
-    """.format(bird.name.replace(" ","_"), bird.caption2)
     if bird.name in noCap:
         for line in stuff:
             if "caption" in line:
@@ -106,16 +106,26 @@ doc.write("""
 \\author{McLean Highschool Science Olympiad}
 
 \\usepackage{graphicx}
+\\usepackage{titlesec}
+\\def\\numberline#1{}
 
 \\begin{document}
 
 \\maketitle
+\\newpage
+\\setcounter{tocdepth}{1}
+\\tableofcontents
+\\newpage
 """)
+Birds = []
 
 for line in file:
     if line != "\n":
-        latex_section(doc,Bird(line))
+        Birds.append(Bird(line))
 
-doc.write("\\end{document}")
+for bird in Birds:
+    latex_section(doc,bird)
+
+doc.write("\n\\end{document}")
 
 # os.system("pdflatex birds.tex")

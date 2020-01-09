@@ -1,155 +1,150 @@
-Black-bellied Whistling-duck 
-Red-tailed Hawk 
-Snow Goose 
-Canada Goose
-Trumpeter Swan 
-Wood Duck
-Mallard
-Northern Shoveler 
-Green-winged Teal 
-Canvasback
-Hooded Merganser 
-Ring-necked Pheasant
-Ruffed Grouse 
-Wild Turkey 
-Northern Bobwhite 
-Red-throated Loon    
-Common Loon 
-Pied-billed Grebe 
-Red-necked Grebe 
-Laysan Albatross 
-Northern Fulmar  
-American White Pelican 
-American Bittern 
-Great Blue Heron 
-Snowy Egret 
-Green Heron 
-Black-crowned Night-heron  
-Roseate Spoonbill
-Double-crested Cormorant 
-Anhinga
-Wood Stork
-
-Crested Caracara 
-American Kestrel 
-Peregrine Falcon
-Osprey
-
-Bald Eagle 
-Northern Harrier 
-Coopers Hawk 
-Golden Eagle  
-Turkey Vulture
-California Condor
-Clapper Rail 
-Sora
-Purple Gallinule 
-American Coot 
-Whooping Crane 
-American Golden-Plover 
-Killdeer  
-American Oystercatcher  
-Black-necked Stilt 
 American Avocet 
-
-Spotted Sandpiper 
-Ruddy Turnstone 
-Dunlin
-Wilsons Snipe  
-American Woodcock 
-Laughing Gull 
-Ring-billed Gull 
-Herring Gull 
-Least Tern 
-Caspian Tern 
-Common Murre
-Black Tern 
-Black Skimmer
-Tufted Puffin 
-Mourning Dove 
-Common Ground-Dove 
-Rock Pigeon 
-
-Black-billed Cuckoo 
-Greater Roadrunner 
-Barn Owl 
-Great Horned Owl
-Snowy Owl
-Barred Owl
-Western Screech-Owl
-Eastern Screech-Owl
-Northern Cardinal 
-Indigo Bunting 
-Painted Bunting 
-Scarlet Tanager 
-Bobolink 
-Western Meadowlark 
-Common Grackle 
-Baltimore Oriole
-Red Crossbill 
-American Goldfinch 
-Evening Grosbeak 
-House Finch
-Pine Siskin
-House Sparrow
-European Starling 
-Chuck-wills-widow 
-Common Nighthawk
-Chimney Swift
-Belted Kingfisher
-Red-headed Woodpecker 
-Yellow-bellied Sapsucker 
-Downy Woodpecker 
-Northern Flicker
-Pileated Woodpecker 
-Olive-sided Flycatcher 
-Eastern Phoebe 
-Vermilion Flycatcher 
-Great Crested Flycatcher 
-Scissor-tailed Flycatcher 
-Loggerhead Shrike 
-Warbling Vireo 
-Red-eyed Vireo 
-Stellers Jay 
-Blue Jay
-Black-billed Magpie 
+American Bittern 
+American Coot 
 American Crow 
-Common Raven
-Horned Lark 
-Purple Martin 
-Cliff Swallow 
-Barn Swallow 
-Black-capped Chickadee  
-Tufted Titmouse 
-Red-breasted Nuthatch 
-White-breasted Nuthatch 
-Brown Creeper 
-Cactus Wren 
-Marsh Wren
-Carolina Wren  
 American Dipper 
-Golden-crowned Kinglet 
-Ruby-crowned Kinglet 
-Blue-gray Gnatcatcher 
-Wood Thrush 
-American Robin 
-
-Brown Thrasher 
-Cedar Waxwing 
-Yellow Warbler  
-Magnolia Warbler
-Yellow-rumped Warbler 
-Black-throated Green Warbler 
-Black-and-white Warbler
+American Golden-Plover 
+American Goldfinch 
+American Kestrel 
+American Oystercatcher  
 American Redstart 
-Kentucky Warbler 
-Common Yellowthroat
-Spotted Towhee 
+American Robin 
+American White Pelican 
+American Woodcock 
+Anhinga
+Bald Eagle 
+Baltimore Oriole
+Barn Owl 
+Barn Swallow 
+Barred Owl
+Belted Kingfisher
+Black Skimmer
+Black Tern 
+Black-and-white Warbler
+Black-bellied Whistling-duck 
+Black-billed Cuckoo 
+Black-billed Magpie 
+Black-capped Chickadee  
 Black-chinned Sparrow 
-Lark Sparrow 
-Harriss Sparrow 
-White-crowned Sparrow 
+Black-crowned Night-heron  
+Black-necked Stilt 
+Black-throated Green Warbler 
+Blue Jay
+Blue-gray Gnatcatcher 
+Bobolink 
+Brown Creeper 
+Brown Thrasher 
+Cactus Wren 
+California Condor
+Canada Goose
+Canvasback
+Carolina Wren  
+Caspian Tern 
+Cedar Waxwing 
+Chimney Swift
 Chipping Sparrow
+Chuck-wills-widow 
+Clapper Rail 
+Cliff Swallow 
+Common Grackle 
+Common Ground-Dove 
+Common Loon 
+Common Murre
+Common Nighthawk
+Common Raven
+Common Yellowthroat
+Coopers Hawk 
+Crested Caracara 
 Dark-eyed Junco 
+Double-crested Cormorant 
+Downy Woodpecker 
+Dunlin
+Eastern Phoebe 
+Eastern Screech-Owl
+European Starling 
+Evening Grosbeak 
+Golden Eagle  
+Golden-crowned Kinglet 
+Great Blue Heron 
+Great Crested Flycatcher 
+Great Horned Owl
+Greater Roadrunner 
+Green Heron 
+Green-winged Teal 
+Harriss Sparrow 
+Herring Gull 
+Hooded Merganser 
+Horned Lark 
+House Finch
+House Sparrow
+Indigo Bunting 
+Kentucky Warbler 
+Killdeer  
 Lapland Longspur 
+Lark Sparrow 
+Laughing Gull 
+Laysan Albatross 
+Least Tern 
+Loggerhead Shrike 
+Magnolia Warbler
+Mallard
+Marsh Wren
+Mourning Dove 
+Northern Bobwhite 
+Northern Cardinal 
+Northern Flicker
+Northern Fulmar  
+Northern Harrier 
+Northern Shoveler 
+Olive-sided Flycatcher 
+Osprey
+Painted Bunting 
+Peregrine Falcon
+Pied-billed Grebe 
+Pileated Woodpecker 
+Pine Siskin
+Purple Gallinule 
+Purple Martin 
+Red Crossbill 
+Red-breasted Nuthatch 
+Red-eyed Vireo 
+Red-headed Woodpecker 
+Red-necked Grebe 
+Red-tailed Hawk 
+Red-throated Loon    
+Ring-billed Gull 
+Ring-necked Pheasant
+Rock Pigeon 
+Roseate Spoonbill
+Ruby-crowned Kinglet 
+Ruddy Turnstone 
+Ruffed Grouse 
+Scarlet Tanager 
+Scissor-tailed Flycatcher 
 Snow Bunting 
+Snow Goose 
+Snowy Egret 
+Snowy Owl
+Sora
+Spotted Sandpiper 
+Spotted Towhee 
+Stellers Jay 
+Trumpeter Swan 
+Tufted Puffin 
+Tufted Titmouse 
+Turkey Vulture
+Vermilion Flycatcher 
+Warbling Vireo 
+Western Meadowlark 
+Western Screech-Owl
+White-breasted Nuthatch 
+White-crowned Sparrow 
+Whooping Crane 
+Wild Turkey 
+Wilsons Snipe  
+Wood Duck
+Wood Stork
+Wood Thrush 
+Yellow Warbler  
+Yellow-bellied Sapsucker 
+Yellow-rumped Warbler 

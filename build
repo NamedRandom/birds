@@ -1,4 +1,6 @@
 #!/bin/bash
 ./webyoink.py
-echo X | pdftex birds.tex  &>/dev/null 2&>/dev/null 
+pdflatex birds.tex 
+sleep 1
+pdflatex birds.tex 
 echo "Done"
